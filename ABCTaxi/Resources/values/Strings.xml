@@ -2,6 +2,7 @@
 <resources>
   <string name="app_name">ABCTaxi</string>
   <string name="callButtonText">POZOVI</string>
+  <string name="reserveButtonText">REZERVISI</string>
   <string name="palatino_linotype">Palatino Linotype, Book Antiqua, Palatino, serif</string>
   <string name="login">Ja sam taksista</string>
 </resources>

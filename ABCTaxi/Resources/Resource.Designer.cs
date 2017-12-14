@@ -66,6 +66,9 @@ namespace ABCTaxi
 			// aapt resource value: 0x7f050002
 			public const int buttonReserve = 2131034114;
 			
+			// aapt resource value: 0x7f050003
+			public const int loginLink = 2131034115;
+			
 			// aapt resource value: 0x7f050000
 			public const int logo = 2131034112;
 			
@@ -104,11 +107,14 @@ namespace ABCTaxi
 			// aapt resource value: 0x7f040001
 			public const int callButtonText = 2130968577;
 			
+			// aapt resource value: 0x7f040004
+			public const int login = 2130968580;
+			
 			// aapt resource value: 0x7f040003
-			public const int login = 2130968579;
+			public const int palatino_linotype = 2130968579;
 			
 			// aapt resource value: 0x7f040002
-			public const int palatino_linotype = 2130968578;
+			public const int reserveButtonText = 2130968578;
 			
 			static String()
 			{
