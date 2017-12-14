@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minWidth="25px"
+    android:minHeight="25px">
+    <ImageView
+        android:src="@drawable/placeholder"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:id="@+id/logo"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="50dp" />
+    <Button
+        android:layout_below="@id/logo"
+        android:id="@+id/buttonCall"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:fontFamily="Palatino Linotype, Book Antiqua, Palatino, serif"
+        android:textSize="15sp"
+        android:text="@string/callButtonText"
+        android:layout_margin="0dp" />
+    <Button
+        android:layout_below="@id/buttonCall"
+        android:id="@+id/buttonReserve"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:fontFamily="@string/palatino_linotype"
+        android:textSize="15sp"
+        android:text="@string/callButtonText"
+        android:layout_margin="0dp" />
+    <TextView
+        android:text="@string/login" />
+</RelativeLayout>
