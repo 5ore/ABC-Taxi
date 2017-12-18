@@ -20,7 +20,7 @@
         android:fontFamily="Palatino Linotype, Book Antiqua, Palatino, serif"
         android:textSize="15sp"
         android:text="@string/callButtonText"
-        android:layout_margin="0dp" />
+        android:layout_margin="0dp"/>
     <Button
         android:layout_below="@id/buttonCall"
         android:id="@+id/buttonReserve"

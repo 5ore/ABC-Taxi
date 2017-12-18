@@ -1,6 +1,8 @@
 ﻿using Android.App;
 using Android.Widget;
 using Android.OS;
+using Android.Views;
+using System.Linq;
 
 namespace ABCTaxi
 {
@@ -13,6 +15,20 @@ namespace ABCTaxi
 
             // Set our view from the "main" layout resource
             SetContentView(Resource.Layout.Main);
+            RegisterButtonClickEvents();
+        }
+
+        void RegisterButtonClickEvents()
+        {
+            FindViewById(Resource.Id.buttonCall).Click += delegate
+            {
+                buttonCall_Click();
+            };
+        }
+
+        public void buttonCall_Click()
+        {
+            // kod
         }
     }
 }
