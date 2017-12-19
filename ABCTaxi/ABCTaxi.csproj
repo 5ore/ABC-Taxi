@@ -56,6 +56,7 @@
   <ItemGroup>
     <Compile Include="InCallActivity.cs" />
     <Compile Include="MainActivity.cs" />
+    <Compile Include="ReservationExistsActivity.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -64,6 +65,9 @@
     <None Include="Properties\AndroidManifest.xml" />
     <None Include="Assets\AboutAssets.txt" />
     <AndroidResource Include="Resources\layout\in_call_layout.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\reservation_exists_layout.axml">
       <SubType>Designer</SubType>
     </AndroidResource>
   </ItemGroup>

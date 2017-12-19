@@ -7,4 +7,7 @@
   <string name="login">Ja sam taksista</string>
   <string name="in_call_label">Čeka se prvi slobodan taksi...</string>
   <string name="in_call_buttonQuit">OTKAŽI POZIV</string>
+  <string name="reserve_exists_okButton">Ok</string>
+  <string name="reserve_exists_changeButton">Izmeni</string>
+  <string name="reserve_exists_cancelButton">Poništi</string>
 </resources>

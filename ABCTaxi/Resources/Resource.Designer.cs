@@ -66,6 +66,12 @@ namespace ABCTaxi
 			// aapt resource value: 0x7f050005
 			public const int buttonReserve = 2131034117;
 			
+			// aapt resource value: 0x7f050008
+			public const int cancelButton = 2131034120;
+			
+			// aapt resource value: 0x7f050009
+			public const int changeButton = 2131034121;
+			
 			// aapt resource value: 0x7f050000
 			public const int in_call_label = 2131034112;
 			
@@ -80,6 +86,12 @@ namespace ABCTaxi
 			
 			// aapt resource value: 0x7f050003
 			public const int logo = 2131034115;
+			
+			// aapt resource value: 0x7f05000a
+			public const int okButton = 2131034122;
+			
+			// aapt resource value: 0x7f050007
+			public const int reserve_exists_label = 2131034119;
 			
 			static Id()
 			{
@@ -99,6 +111,9 @@ namespace ABCTaxi
 			
 			// aapt resource value: 0x7f030001
 			public const int Main = 2130903041;
+			
+			// aapt resource value: 0x7f030002
+			public const int reservation_exists_layout = 2130903042;
 			
 			static Layout()
 			{
@@ -133,6 +148,15 @@ namespace ABCTaxi
 			
 			// aapt resource value: 0x7f040002
 			public const int reserveButtonText = 2130968578;
+			
+			// aapt resource value: 0x7f040009
+			public const int reserve_exists_cancelButton = 2130968585;
+			
+			// aapt resource value: 0x7f040008
+			public const int reserve_exists_changeButton = 2130968584;
+			
+			// aapt resource value: 0x7f040007
+			public const int reserve_exists_okButton = 2130968583;
 			
 			static String()
 			{
